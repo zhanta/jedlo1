@@ -168,7 +168,7 @@ h5 {
 }
 
 a {
-  color: #818494;
+  color: #ec4d37;
   font-weight: 500;
   text-decoration: none;
   background-color: transparent;
@@ -357,13 +357,14 @@ font-family: 'Rubik', sans-serif;
   transition: opacity .2s linear;
 }
 
+/*MENU LIST STYLE*/
+
 .containerm {
-  width: 1100px 100%!important;
+  width: 1100px 100%;
   margin: 0 auto;
-  margin-top: 20px!important;
+  margin-top: 20px;
   padding: 0;
   font-family: 'Literata', serif;
-  display: block;
 }
 
 .content {
@@ -371,13 +372,12 @@ font-family: 'Rubik', sans-serif;
   text-align: center;
   padding: 0 15px;
   margin: 0;
-  display: block;
+  
 }
 
 .recordlist_clearfix{
   padding-left: 0!important;
   margin: 0;
-  display: block;
   min-height: 400px;
 }
 
@@ -388,7 +388,6 @@ font-family: 'Rubik', sans-serif;
   padding-top: 10px;
   margin: 0;
   padding: 0;
-  display: block;
   margin-block-start: 1.33em;
   margin-block-end: 1.33em;
   margin-inline-end: 0px;
@@ -404,11 +403,13 @@ font-family: 'Rubik', sans-serif;
   padding: 0 15px;
 
 }
-.menulist {
+.menulist_hit{
   vertical-align: top;
   width: 311px;
   display: inline-block;
   position: relative;
+  margin: 0 !important;
+  text-align: center;
 
 }
 .pics {
@@ -428,5 +429,23 @@ font-family: 'Rubik', sans-serif;
   height: 160px;
   margin: 0;
   padding: 0;
+  font-size: 14px;
+  color: #ec4d37;
+}
+
+.description {
+  font-family: 'Rubik', sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+
+.price {
+  color: #ec4d37;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 15px 0;
+  position: absolute;
+  right: 10px;
+  top: 110px; 
 }
 
